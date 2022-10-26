@@ -1,4 +1,4 @@
-# calculadora-de-idade
+# Calculdora de Idade
  Apenas uma calculadora de idade feita com tkinter no projeto do site usandopy.com
 
 ## Pré-requisitos
