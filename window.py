@@ -155,7 +155,7 @@ class MainWindow:
         dayBorn, monthBorn, yearBorn = [int(x) for x in self.dateBornVar.get().split('/')]
         dayNow, monthNow, yearNow = [int(x) for x in self.dateNowVar.get().split('/')]
 
-        # Formata a data
+        # FORMAT THE DATA
         bornDate = date(yearBorn, monthBorn, dayBorn)
         nowDate = date(yearNow, monthNow, dayNow)
 
@@ -164,7 +164,7 @@ class MainWindow:
         month = relativedelta(nowDate, bornDate).months
         days = relativedelta(nowDate, bornDate).days
 
-        # Desenha o resultado
+        # DRAW THE RESULT
         self.LabelYears['text'] = year
         self.LabelMonth['text'] = month
         self.LabelDays['text'] = days
