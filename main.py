@@ -17,7 +17,7 @@ class MainApp:
         self.master.resizable(width=False, height=False)
         self.master.geometry(f'{self.width}x{self.height}+{self.width_sys}+{self.height_sys}')
 
-        # Start Program
+        # Start The Program
         self.mainWIndow = MainWindow(self.master)
         self.master.mainloop()
 
